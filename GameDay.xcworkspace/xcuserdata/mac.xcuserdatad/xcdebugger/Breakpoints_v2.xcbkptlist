@@ -96,8 +96,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1252"
             endingLineNumber = "1252"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "FetchBookingDetails()"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "20A2DEB7-6572-490B-BF2E-1E7A7DA71D38 - fb18dc22f7b4a030"
@@ -144,8 +144,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "773"
             endingLineNumber = "773"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

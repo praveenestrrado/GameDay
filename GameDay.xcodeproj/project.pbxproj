@@ -19,7 +19,6 @@
 		041D03C225A4718B00916764 /* PaymentMethodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D03C125A4718B00916764 /* PaymentMethodeListViewController.swift */; };
 		041D03C725A471B000916764 /* PaymentMethodListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D03C625A471B000916764 /* PaymentMethodListTableViewCell.swift */; };
 		041D03CC25A471C600916764 /* RecentBookingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D03CB25A471C600916764 /* RecentBookingsTableViewCell.swift */; };
-		041FDF0F268EF8F500087AC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041FDF0E268EF8F400087AC1 /* GoogleService-Info.plist */; };
 		0427CC992587595A00E80AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427CC982587595A00E80AFF /* AppDelegate.swift */; };
 		0427CC9B2587595A00E80AFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427CC9A2587595A00E80AFF /* SceneDelegate.swift */; };
 		0427CC9D2587595A00E80AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427CC9C2587595A00E80AFF /* ViewController.swift */; };
@@ -47,6 +46,7 @@
 		0459F01325F88FD40072F361 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459F01225F88FD40072F361 /* LoginResponseModel.swift */; };
 		045AF13B25A33A45004F0EE1 /* PaymentFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AF13A25A33A45004F0EE1 /* PaymentFirstViewController.swift */; };
 		045AF14025A35A3D004F0EE1 /* LoginOrRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AF13F25A35A3D004F0EE1 /* LoginOrRegisterViewController.swift */; };
+		046298E5269702C60070A861 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 046298E4269702C60070A861 /* GoogleService-Info.plist */; };
 		04639EF825A5ABCF0041DD3F /* NotificationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04639EF725A5ABCF0041DD3F /* NotificationListViewController.swift */; };
 		04639EFD25A5ABF30041DD3F /* NotificationHeadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04639EFC25A5ABF30041DD3F /* NotificationHeadingTableViewCell.swift */; };
 		04639F0225A5AC030041DD3F /* NotificationListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04639F0125A5AC030041DD3F /* NotificationListTableViewCell.swift */; };
@@ -151,7 +151,6 @@
 		041D03C125A4718B00916764 /* PaymentMethodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodeListViewController.swift; sourceTree = "<group>"; };
 		041D03C625A471B000916764 /* PaymentMethodListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodListTableViewCell.swift; sourceTree = "<group>"; };
 		041D03CB25A471C600916764 /* RecentBookingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentBookingsTableViewCell.swift; sourceTree = "<group>"; };
-		041FDF0E268EF8F400087AC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0427CC952587595A00E80AFF /* GameDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0427CC982587595A00E80AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0427CC9A2587595A00E80AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +184,7 @@
 		0459F01225F88FD40072F361 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
 		045AF13A25A33A45004F0EE1 /* PaymentFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFirstViewController.swift; sourceTree = "<group>"; };
 		045AF13F25A35A3D004F0EE1 /* LoginOrRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrRegisterViewController.swift; sourceTree = "<group>"; };
+		046298E4269702C60070A861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04639EF725A5ABCF0041DD3F /* NotificationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListViewController.swift; sourceTree = "<group>"; };
 		04639EFC25A5ABF30041DD3F /* NotificationHeadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHeadingTableViewCell.swift; sourceTree = "<group>"; };
 		04639F0125A5AC030041DD3F /* NotificationListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListTableViewCell.swift; sourceTree = "<group>"; };
@@ -304,7 +304,7 @@
 			children = (
 				04DBC01625A31EB400B5D6B7 /* GameDay.entitlements */,
 				0427CC982587595A00E80AFF /* AppDelegate.swift */,
-				041FDF0E268EF8F400087AC1 /* GoogleService-Info.plist */,
+				046298E4269702C60070A861 /* GoogleService-Info.plist */,
 				04BE8849268A61F100B42EAB /* HRToast+UIView.swift */,
 				04D177512653CE1C003DFC15 /* RangeSlider */,
 				04BFD9D825920AD0006AC6A0 /* Common */,
@@ -662,9 +662,9 @@
 				04BFD8F52591D057006AC6A0 /* TTOctosquares-Light.ttf in Resources */,
 				04BFD90D2591D085006AC6A0 /* TTOctosquares-Regular.ttf in Resources */,
 				04BFD8EE2591CD6E006AC6A0 /* TTOctosquares-Black.ttf in Resources */,
-				041FDF0F268EF8F500087AC1 /* GoogleService-Info.plist in Resources */,
 				04BFD9142591D08F006AC6A0 /* TTOctosquares-Thin.ttf in Resources */,
 				0427CCA02587595A00E80AFF /* Main.storyboard in Resources */,
+				046298E5269702C60070A861 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
